@@ -16,8 +16,81 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mainContent {
+  padding: 2rem 0;
+}
+
+.guidesSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .guidesSection {
+    grid-template-columns: 1fr;
+  }
+}
+
+.guideItem {
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius);
+  transition: all 0.2s ease;
+}
+
+.guideItem:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guideTitle {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.guideItem a {
+  text-decoration: none !important;
+}
+
+.guideItem a:hover {
+  text-decoration: none !important;
+  color: var(--ifm-color-primary-darker);
+}
+
+.guideTitle:hover {
+  color: var(--ifm-color-primary-darker);
+}
+
+.guideList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.guideList li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.guideList li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+}
+
+.guideList a {
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+}
+
+.guideList a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
 }
