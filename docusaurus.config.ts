@@ -75,23 +75,17 @@ const config: Config = {
     navbar: {
       logo: {
         alt: "Eduncy Logo",
-        src: "img/Logo12.webp",
+        src: "img/Logo12.png",
         href: "https://eduncy.com/",
-        width: 100,
-        height: 150,
+        width: 150,
+        height: 200,
       },
       items: [
         {
-          to: "/",
-          label: "Home",
-          position: "left",
-          exact: true,
-        },
-        {
           type: "docSidebar",
-          sidebarId: "userGuideSidebar",
+          sidebarId: "helpCenterSidebar",
           position: "left",
-          label: "User Guide",
+          label: "Help Center",
         },
         {
           type: "docSidebar",
@@ -105,11 +99,19 @@ const config: Config = {
           position: "left",
           label: "Product Updates",
         },
+        {
+          href: "https://eduncy.com/get-a-demo/",
+          position: "right",
+          className: "navbar-demo-button",
+          label: "Get a Demo",
+          target: "_blank",
+          rel: "noopener",
+        },
       ],
     },
     footer: {
       style: "light",
-      copyright: `Copyright © ${new Date().getFullYear()} Eduncy, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Eduncy.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -15,6 +15,11 @@
   --ifm-color-primary-lightest: #7f1aff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-menu-color: #000000;
+  --ifm-color-emphasis-700: #000000;
+  --color-e281y-600: #9631ec;
+  --color-g5yb4-600: #d407af;
+  --color-2zt5e-300: rgba(150, 49, 236, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +32,82 @@
   --ifm-color-primary-lighter: #c197ff;
   --ifm-color-primary-lightest: #cbabff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-menu-color: #ffffff;
+  --ifm-color-emphasis-700: #ffffff;
+  --color-e281y-600: #9631ec;
+  --color-g5yb4-600: #d407af;
+  --color-2zt5e-300: rgba(150, 49, 236, 0.1);
+}
+
+/* Custom footer styles */
+.footer {
+  padding: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.footer__copyright {
+  margin: 0;
+  text-align: center;
+}
+
+/* Custom navbar styles */
+.navbar {
+  height: auto;
+  padding: 0.5rem 1rem;
+}
+
+/* Swap dark mode toggle and demo button positions */
+.navbar__items--right > .navbar-demo-button {
+  order: 2;
+}
+
+.navbar__items--right > div[class*="colorModeToggle"] {
+  order: 1;
+}
+
+.navbar__logo {
+  height: auto;
+}
+
+.navbar__logo img {
+  max-height: none;
+}
+
+/* Demo button styles */
+.navbar-demo-button.navbar__item {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-e281y-600) 0%,
+    var(--color-g5yb4-600) 100%
+  );
+  border-color: var(--color-2zt5e-300);
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0px 2px 4px 0px #17151514;
+  border-style: solid;
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 16px;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-demo-button.navbar__item:hover {
+  opacity: 0.9;
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+/* Custom sidebar arrow styles */
+.menu__caret:before,
+.menu__link--sublist:after,
+.menu__link--sublist-caret:after {
+  width: 1rem !important;
+  height: 1rem !important;
+  background-size: 1rem 1rem !important;
+  transform-origin: center;
+  transition: transform 0.2s ease;
 }

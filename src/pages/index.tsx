@@ -7,34 +7,70 @@ import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
 
-const guides = [
+const features = [
   {
-    title: "📚 User Guide",
-    description:
-      "Learn how to use Eduncy effectively with our comprehensive user guide.",
-    link: "/docs/user-guide/get-started",
+    title: "Sales Hub",
+    description: "Track leads, deals, and tasks in one place.",
+    icon: "📈",
+    link: "/docs/category/sales-hub",
   },
   {
-    title: "🛠️ Developer Guide",
-    description: "Technical documentation for developers working with Eduncy.",
-    link: "/docs/developer-guide/getting-started",
+    title: "Chatting Hub",
+    description: "Manage all chats and messages centrally.",
+    icon: "💬",
+    link: "/docs/category/chatting-hub",
   },
   {
-    title: "🔄 Product Updates",
-    description: "Stay up to date with the latest features and improvements.",
-    link: "/docs/product-updates/latest-updates",
+    title: "Admission Hub",
+    description: "Handle applications and students with ease.",
+    icon: "🎓",
+    link: "/docs/category/admission-hub",
+  },
+  {
+    title: "Agent Hub",
+    description: "Effortlessly oversee agents and sub-agents.",
+    icon: "👔",
+    link: "/docs/category/agent-hub",
+  },
+  {
+    title: "Info Hub",
+    description: "Browse programs, scholarships, campuses, and more.",
+    icon: "ℹ️",
+    link: "/docs/category/info-hub",
+  },
+  {
+    title: "Apps & Integrations",
+    description: "Plug into WhatsApp, Facebook, Instagram quickly.",
+    icon: "🔌",
+    link: "/docs/category/apps-integrations",
+  },
+  {
+    title: "Employees Management",
+    description: "Organize employees and teams simply.",
+    icon: "👥",
+    link: "/docs/category/employees-management",
+  },
+  {
+    title: "Organization Access",
+    description: "Set roles, permissions, and assignment rules.",
+    icon: "🔒",
+    link: "/docs/category/organization-access",
   },
 ];
 
-function GuideItem({ title, description, link }) {
+function FeatureCard({ title, description, icon, link }) {
   return (
-    <div className={styles.guideItem}>
-      <Link to={link}>
-        <Heading as="h2" className={styles.guideTitle}>
-          {title}
-        </Heading>
-      </Link>
-      <p>{description}</p>
+    <div className={styles.col}>
+      <div
+        className={styles.card}
+        onClick={() => (window.location.href = link)}
+      >
+        <div className={styles.icon}>{icon}</div>
+        <div className={styles.content}>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </div>
     </div>
   );
 }
@@ -60,9 +96,9 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main className={styles.mainContent}>
         <div className="container">
-          <div className={styles.guidesSection}>
-            {guides.map((guide, idx) => (
-              <GuideItem key={idx} {...guide} />
+          <div className={styles.row}>
+            {features.map((feature, idx) => (
+              <FeatureCard key={idx} {...feature} />
             ))}
           </div>
         </div>
