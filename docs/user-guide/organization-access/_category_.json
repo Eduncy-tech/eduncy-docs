@@ -1,0 +1,8 @@
+{
+  "label": "Organization Access",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Set roles, permissions, and assignment rules."
+  }
+}

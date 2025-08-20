@@ -1,0 +1,231 @@
+# User Guide
+
+<div class="page-container">
+<div class="content-container">
+
+Welcome to the Eduncy User Guide. Here you'll find comprehensive documentation about all features and functionalities of the platform.
+
+<div class="container">
+<div class="row">
+<div class="col">
+  <div
+    class="card"
+    onClick={() => (window.location.href = "/docs/category/sales-hub")}
+  >
+    <div class="icon">📈</div>
+    <div class="content">
+      <h3>Sales Hub</h3>
+      <p>Track leads, deals, and tasks in one place.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() => (window.location.href = "/docs/category/chatting-hub")}
+  >
+    <div class="icon">💬</div>
+    <div class="content">
+      <h3>Chatting Hub</h3>
+      <p>Manage all chats and messages centrally.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() => (window.location.href = "/docs/category/admission-hub")}
+  >
+    <div class="icon">🎓</div>
+    <div class="content">
+      <h3>Admission Hub</h3>
+      <p>Handle applications and students with ease.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() => (window.location.href = "/docs/category/agent-hub")}
+  >
+    <div class="icon">👔</div>
+    <div class="content">
+      <h3>Agent Hub</h3>
+      <p>Effortlessly oversee agents and sub-agents.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() => (window.location.href = "/docs/category/info-hub")}
+  >
+    <div class="icon">ℹ️</div>
+    <div class="content">
+      <h3>Info Hub</h3>
+      <p>Browse programs, scholarships, campuses, and more.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() => (window.location.href = "/docs/category/apps-integrations")}
+  >
+    <div class="icon">🔌</div>
+    <div class="content">
+      <h3>Apps & Integrations</h3>
+      <p>Plug into WhatsApp, Facebook, Instagram quickly.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() =>
+      (window.location.href = "/docs/category/employees-management")
+    }
+  >
+    <div class="icon">👥</div>
+    <div class="content">
+      <h3>Employees Management</h3>
+      <p>Organize employees and teams simply.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div
+    class="card"
+    onClick={() =>
+      (window.location.href = "/docs/category/organization-access")
+    }
+  >
+    <div class="icon">🔒</div>
+    <div class="content">
+      <h3>Organization Access</h3>
+      <p>Set roles, permissions, and assignment rules.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<style>
+  {`
+.page-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 1rem;
+}
+
+.container {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.5rem;
+    width: 150%;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    background: var(--ifm-background-color);
+    margin: 0;
+}
+
+.card:hover {
+    border-color: var(--ifm-color-primary);
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+}
+
+.content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--ifm-heading-color);
+}
+
+.content p {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    color: var(--ifm-color-emphasis-700);
+    line-height: 1.5;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+    
+    .icon {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+    
+    .content h3 {
+        font-size: 1rem;
+    }
+    
+    .content p {
+        font-size: 0.85rem;
+    }
+}
+`}
+</style>

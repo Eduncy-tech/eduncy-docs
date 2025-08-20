@@ -1,0 +1,8 @@
+{
+  "label": "Auto Assignment",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Set up automatic task and lead assignment rules."
+  }
+}

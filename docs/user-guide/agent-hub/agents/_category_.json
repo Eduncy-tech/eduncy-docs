@@ -1,0 +1,8 @@
+{
+  "label": "Agents",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Manage agents and their relationships with primary agents."
+  }
+}

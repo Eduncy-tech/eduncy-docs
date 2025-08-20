@@ -12,7 +12,7 @@ const guides = [
     title: "📚 User Guide",
     description:
       "Learn how to use Eduncy effectively with our comprehensive user guide.",
-    link: "/docs/user-guide/introduction",
+    link: "/docs/user-guide/get-started",
   },
   {
     title: "🛠️ Developer Guide",

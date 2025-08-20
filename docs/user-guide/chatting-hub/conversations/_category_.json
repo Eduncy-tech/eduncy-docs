@@ -1,0 +1,8 @@
+{
+  "label": "Conversations",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Manage and track all your conversations with students and agents."
+  }
+}

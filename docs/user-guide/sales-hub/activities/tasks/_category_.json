@@ -1,0 +1,8 @@
+{
+  "label": "Tasks",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Create and manage sales-related tasks."
+  }
+}
