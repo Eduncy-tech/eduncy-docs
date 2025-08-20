@@ -73,12 +73,20 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/favicon.png",
     navbar: {
-      title: "Eduncy",
       logo: {
         alt: "Eduncy Logo",
-        src: "img/favicon.png",
+        src: "img/Logo12.webp",
+        href: "https://eduncy.com/",
+        width: 100,
+        height: 150,
       },
       items: [
+        {
+          to: "/",
+          label: "Home",
+          position: "left",
+          exact: true,
+        },
         {
           type: "docSidebar",
           sidebarId: "userGuideSidebar",

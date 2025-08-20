@@ -1,0 +1,8 @@
+{
+  "label": "Faculties",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Browse university faculties and their programs."
+  }
+}

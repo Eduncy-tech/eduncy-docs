@@ -1,0 +1,8 @@
+{
+  "label": "Info Hub",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Browse programs, scholarships, campuses, and more."
+  }
+}

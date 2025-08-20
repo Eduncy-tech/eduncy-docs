@@ -1,0 +1,8 @@
+{
+  "label": "Meetings",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Schedule and manage sales meetings."
+  }
+}

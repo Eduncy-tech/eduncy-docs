@@ -1,0 +1,8 @@
+{
+  "label": "Sales Hub",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Track leads, deals, and tasks in one place."
+  }
+}

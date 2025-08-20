@@ -1,0 +1,8 @@
+{
+  "label": "Campuses",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore university campuses and their facilities."
+  }
+}
