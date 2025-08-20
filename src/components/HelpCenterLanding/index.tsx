@@ -16,67 +16,67 @@ const categories = [
   {
     title: "Get Started",
     description: "Essential information to help you get started with Eduncy.",
-    to: "/docs/user-guide/get-started",
+    to: "/docs/help-center/get-started",
     icon: FaRocket,
   },
   {
     title: "Sales Hub",
     description: "Track leads, deals, and tasks in one place.",
-    to: "/docs/user-guide/sales-hub",
+    to: "/docs/help-center/sales-hub",
     icon: FaChartLine,
   },
   {
     title: "Chatting Hub",
     description: "Manage all chats and messages centrally.",
-    to: "/docs/user-guide/chatting-hub",
+    to: "/docs/help-center/chatting-hub",
     icon: FaComments,
   },
   {
     title: "Admission Hub",
     description: "Handle applications and students with ease.",
-    to: "/docs/user-guide/admission-hub",
+    to: "/docs/help-center/admission-hub",
     icon: FaGraduationCap,
   },
   {
     title: "Agent Hub",
     description: "Effortlessly oversee agents and sub-agents.",
-    to: "/docs/user-guide/agent-hub",
+    to: "/docs/help-center/agent-hub",
     icon: FaUserTie,
   },
   {
     title: "Info Hub",
     description: "Browse programs, scholarships, campuses, and more.",
-    to: "/docs/user-guide/info-hub",
+    to: "/docs/help-center/info-hub",
     icon: FaInfoCircle,
   },
   {
     title: "Apps & Integrations",
     description: "Plug into WhatsApp, Facebook, Instagram quickly.",
-    to: "/docs/user-guide/apps-integrations",
+    to: "/docs/help-center/apps-integrations",
     icon: FaPlug,
   },
   {
     title: "Employees Management",
     description: "Organize employees and teams simply.",
-    to: "/docs/user-guide/employees-management",
+    to: "/docs/help-center/employees-management",
     icon: FaUsers,
   },
   {
     title: "Organization Access",
     description: "Set roles, permissions, and assignment rules.",
-    to: "/docs/user-guide/organization-access",
+    to: "/docs/help-center/organization-access",
     icon: FaUserLock,
   },
 ];
 
-export default function UserGuideLanding(): JSX.Element {
+export default function HelpCenterLanding() {
   return (
     <div className="container margin-top--lg margin-bottom--lg">
       <div className="row">
         <div className="col col--8 col--offset-2">
-          <h1>User Guide</h1>
+          <h1>Help Center</h1>
           <p className="margin-bottom--lg">
-            Welcome to the Eduncy User Guide. Here you'll find comprehensive
+            Welcome to the Eduncy Help Center. Here you'll find comprehensive
             documentation about all features and functionalities of the
             platform.
           </p>
