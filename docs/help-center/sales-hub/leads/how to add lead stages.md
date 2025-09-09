@@ -17,7 +17,7 @@ Here’s a step-by-step guide on how to add stage configurations:
 - Click on the **Stage Configurations** button.  
 - This will open a form to add a new stage.  
 
-![first image](./lead stages 1.webp)
+![first image](./leadsstage1.webp)
 ---
 
 ## Step 3: Fill Out the Add Stage Form
@@ -34,7 +34,7 @@ In the form that appears, provide the following information:
   - *In Progress*: For stages that are currently active or ongoing.  
   - *Drafted*: For stages that are being planned or are in draft form.  
 
-![second image](lead stages 2.webp)
+![second image](./leadsstage2.webp)
 ---
 
 ## Step 4: Save the New Stage
