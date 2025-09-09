@@ -1,3 +1,7 @@
+---
+title: Adding a New Lead
+sidebar_position: 2
+---
 # How to Add a New Lead  
 
 ## Step 1: Go to the CRM System  
