@@ -31,7 +31,7 @@ You can also move leads to different stages by dragging and dropping them.
 2. Click on the **Move to Stage** dropdown menu at the top of the page.  
 3. Select the stage from the dropdown options.  
 
-![first image](./How to Convert Lead to Deal 1.webp)
+![first image](./HowtoConvertLeadtoDeal1.webp)
 ---
 
 ## Step 4: Convert the Lead to a Deal
@@ -52,7 +52,7 @@ You can also move leads to different stages by dragging and dropping them.
 - Go to the **Deals** section in the CRM system.  
 - Verify that the converted lead now appears as a deal in this section.  
 
-![second image](./How to Convert Lead to Deal 2.webp)
+![second image](./HowtoConvertLeadtoDeal2.webp)
 ---
 
 ## Additional Tips
