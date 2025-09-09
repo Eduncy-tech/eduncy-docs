@@ -1,3 +1,7 @@
+---
+title: Leads Listing Overview
+sidebar_position: 1
+---
 # Leads Listing Overview  
 
 The **Leads** page in the system is designed to help you efficiently manage and track potential customers throughout the sales pipeline.  
