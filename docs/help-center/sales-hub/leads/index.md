@@ -1,4 +1,4 @@
-# Managing Leads
+# Managing Lead
 
 Learn how to effectively manage leads in Eduncy's Sales Hub.
 
