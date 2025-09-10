@@ -4,7 +4,7 @@ The **Tasks page** in the system is designed to help you manage and track all ta
 It provides a centralized location where you can create, view, and update tasks to ensure that all necessary actions are completed in a timely manner.  
 
 Here’s a detailed overview of the functionalities and features available on this page:
-!{first image](./TasksListingOverview.webp)
+![irst image](./TasksListingOverview.webp)
 ---
 
 ## Key Sections
