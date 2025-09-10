@@ -31,6 +31,7 @@ In the Tasks section, click on the “+ Add Task” button located at the top ri
 
 - **CRM:**  
   Choose the relevant CRM entry (if applicable) that this task is associated with. This helps in linking the task to specific contacts, deals, or leads.
+
 ![second image](./Tasks2.webp)
 ## Step 4: Submit the Form
 - **Review Entries:**  
