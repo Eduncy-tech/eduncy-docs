@@ -22,7 +22,7 @@ Here’s a step-by-step guide on how to add stages to the deals page.
 In the Add Stage modal, you will see the following fields:  
 - **Name**: Enter the name of the new stage (e.g., *Ready to Apply*, *Applied*, *Missing Documents*).  
 - **Color**: Select a color to visually distinguish this stage.  
-![second image](./HowtoAddDealsStage2.webp)
+![second image](./HowtoAddDealsStages2.webp)
 ---
 
 ## Step 4: Submit the New Stage
