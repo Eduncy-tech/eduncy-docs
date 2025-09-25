@@ -9,7 +9,7 @@
 
 ## Initiate Adding a Student
 - Click on the **“+ Add Student”** button located at the top right of the students page.
-!{first image](./HowtoAddaNewStudent.webp)
+![first image](./HowtoAddaNewStudent.webp)
 ---
 
 ## Fill in Student Details
