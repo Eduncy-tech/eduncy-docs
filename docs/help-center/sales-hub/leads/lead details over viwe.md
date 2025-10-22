@@ -1,60 +1,54 @@
-# Lead Details Overview
+## Leads Listing  
+### Overview  
 
-The Lead Details page System is designed to provide a comprehensive view of individual leads, allowing you to manage and update lead information efficiently.  
-Here’s a detailed overview of the functionalities and features available on this page:
+The Leads page in the system is designed to help you efficiently manage and track potential customers throughout the sales pipeline.  
+Here’s a detailed overview of the functionalities and features available on this page.
 ![first image](./Overview-leads.webp)
 ---
 
-## Key Sections
+### Main Features  
 
-### 1. Lead Stages Navigation
-At the top of the Lead Details page, you can see the various stages of the lead’s journey:  
-- New Lead  
-- Message Sent  
-- Not Responded  
-- In Contact  
-- Missed Leads  
-- Waiting Documents  
-- Lead Done  
+#### 📌 Lead Stages Kanban Board  
+The Leads page is organized as a Kanban board, where leads are categorized into different stages:
 
-This navigation helps you quickly understand the current status of the lead and move them through the pipeline.
+- **New Lead**  
+- **Message Sent**  
+- **Not Responded**  
+- **In Contact**  
+- **Missed Leads**  
 
----
-
-### 2. Personal Information Tab
-This tab allows you to input and update the lead’s personal details:  
-- **Lead Name**: The name of the lead.  
-- **Student Name**: If different from the lead name.  
-- **Mother and Father Name**: For recording detailed family information.  
-- **Nationality and Country of Residence**: Select from a dropdown list.  
-- **Passport ID**: Input the passport number for identification.  
-- **Birthday**: Select the date of birth from a calendar.  
-- **Preferred Language and Spoken Language**: Choose from dropdown options to ensure communication in the lead’s preferred language.  
-- **Phones and Emails**: Enter multiple contact numbers and email addresses for the lead.  
-- **WhatsApp Link**: Provide a direct WhatsApp link for easy communication.  
-- **Sales Person**: Name of the sales person managing this lead.  
-- **Who Contact Us**: Select the source of contact from a dropdown list.  
-- **Source Method**: Indicate how the lead was sourced, such as manually entered by an admin.  
+This visual representation allows you to track the progress of each lead through the sales pipeline at a glance.
 
 ---
 
-### 3. Additional Tabs
-- **Study Information**: Store educational details and preferences.  
-- **Tasks**: Manage and assign tasks related to the lead, ensuring all follow-ups are tracked.  
-- **History**: View a chronological history of interactions and updates related to the lead.  
-- **Wazzup**: Quick communication and status updates.  
+#### ⚡ Quick Actions  
+At the top right corner, several quick action buttons are available:
+
+- **Add Lead** → Manually add a new lead to the system.  
+- **Export** → Export the list of leads for reporting or backup purposes.  
+- **Import** → Import leads from an external source to quickly populate your pipeline.  
+- **Download** → Download the details of your leads in a specific format.  
+- **Stages Configurations** → Customize the stages of your sales pipeline to fit your business process.  
+- **Toggle InProgress/Drafted** → Switch between viewing leads that are actively in progress or in a drafted state.  
 
 ---
 
-### 4. Comments and Documents
-On the right side, you have the option to add comments and attach documents:  
-- **Comments**: Enter descriptions and notes related to the lead, ensuring all team members are informed about the latest updates.  
-- **Documents**: Upload and manage documents associated with the lead for easy access and organization.  
+#### 🗂️ Lead Information Card  
+Each lead is represented by a card containing key information:
+
+- **Name and Timestamp** → Displays the lead’s name and creation time.  
+- **Contact Methods** → Icons for available contact methods (phone, email, WhatsApp).  
+- **Source** → Shows how the lead was generated (e.g., manually by an admin).  
+- **Lead Owner** → Indicates who is responsible for the lead within the system.  
 
 ---
 
-### 5. General Information
-Displays crucial information about the lead:  
-- **Sales Person**: The admin or sales person handling the lead.  
-- **Created By and Created At**: Details of who created the lead and when it was created.  
-- **Lead ID and Contact ID**: Unique identifiers for the lead and contact within the system.  
+#### 🔍 Search and Filter  
+Use the search bar at the top to quickly find specific leads by entering keywords such as:  
+
+- Lead name  
+- Student name  
+- Phone number  
+- Email address  
+
+
