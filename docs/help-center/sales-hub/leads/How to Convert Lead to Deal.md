@@ -1,65 +1,64 @@
-# How to Convert Lead to Deal
+### How to Convert a Lead to a Deal
 
-Converting a lead to a deal in your system is a crucial step in the sales process.  
-Here’s a step-by-step guide on how to convert a lead to a deal, specifically when the lead reaches the **“Lead Done”** stage.  
-You can also move leads to different stages by dragging and dropping them.
-
----
-
-## Step 1: Navigate to the Leads Page
-- Login to your system.  
-- Go to the **CRM System** section in the sidebar.  
-- Click on **Leads** to open the Leads page.  
+Converting a lead into a deal is the final step after completing all necessary communication and qualification.  
+Once the lead reaches the final stage of your lead process, it can be transferred into the Deals module.
 
 ---
 
-## Step 2: Identify the Lead to Convert
-- On the Leads page, you will see different columns representing various stages of the lead process (e.g., *New Lead*, *Message Sent*, *Not Responded*, etc.).  
-- Locate the **lead card** you want to convert. Leads are represented by cards within these columns.  
+#### Step 1: Open the Leads Page
+1. Log into your system.  
+2. Navigate to the CRM System.  
+3. Click **Leads**.
 
 ---
 
-## Step 3: Move the Lead to Different Stages
+#### Step 2: Move the Lead to the Final Stage
+Before converting a lead, it must be moved to the pipeline’s End of Process stage (e.g., “Lead Done”).
 
-### Drag and Drop Method
-1. Click and hold the lead card you want to move.  
-2. Drag the card to any column.  
-3. Release the mouse button to drop the card into the stage you want.  
+You can do this in two ways:
 
-### Move to Stage Dropdown Method
-1. Select the lead by clicking the **checkbox** on the lead card.  
-2. Click on the **Move to Stage** dropdown menu at the top of the page.  
-3. Select the stage from the dropdown options.  
+**Drag & Drop**
+- Click and hold the lead card.  
+- Drag it to the End of Process stage.  
+- Release to drop.
 
-![first image](./HowtoConvertLeadtoDeal1.webp)
----
-
-## Step 4: Convert the Lead to a Deal
-
-- Once the lead is in the **“Lead Done”** stage, it indicates that the lead is ready to be converted to a deal.  
-
-**Automatic Conversion**  
-- Moving a lead to the **“Lead Done”** stage automatically converts it to a deal.  
-
-**Manual Conversion**  
-1. Click on the lead card in the **“Lead Done”** stage to open its detailed view.  
-2. Look for an option to **Convert to Deal** or **Mark as Deal**.  
-3. Click on this option to convert the lead to a deal.  
+**Move to Stage Dropdown**
+- Select the checkbox on the lead card.  
+- Click **Move to Stage**.  
+- Choose the End of Process stage.
 
 ---
 
-## Step 5: Verify the Conversion
-- Go to the **Deals** section in the CRM system.  
-- Verify that the converted lead now appears as a deal in this section.  
+#### Step 3: Select “Convert to Deal”
+When a lead enters the End of Process stage, a popup will appear.
 
-![second image](./HowtoConvertLeadtoDeal2.webp)
+In the popup:
+- Click **Convert to Deal**.
+
+This begins the deal creation process.
+
 ---
 
-## Additional Tips
+#### Step 4: Choose Where the Deal Will Be Created
+A Transfer Data popup will appear asking you to select:
 
-### Drag and Drop Flexibility
-- You can drag and drop lead cards between any stages to update their status.  
-- This feature allows for easy and quick management of leads as they progress through different stages.  
+- **Deal Pipeline**  
+- **Deal Stage**
 
-### Stage Management
-- Regularly review and update stages to ensure leads are correctly categorized based on their current status.  
+Choose where the new deal should appear in the Deals module, then click **Confirm**.
+
+---
+
+#### Step 5: Verify the Deal
+To finish:
+1. Open the **Deals** page from the CRM menu.  
+2. Search for the lead by name.  
+3. Confirm it now appears as a deal card in the stage you selected.
+
+---
+
+#### Notes
+- Leads must be in the End of Process stage to convert.  
+- You can choose any deal pipeline and stage during conversion.  
+- Data such as contact details, notes, and files transfer automatically.
+
