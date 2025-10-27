@@ -1,64 +1,125 @@
-## Leads Listing Overview  
-
-The Leads page in the system is designed to help you efficiently manage and track  
-potential customers throughout the sales pipeline.  
-Here’s a detailed overview of the functionalities and features available  
-on this page.  
+### Lead Details Overview
+The Lead Details page provides a complete view of an individual lead, allowing you to review information, update data, track communication, upload documents, and manage tasks.  
+This page ensures you and your team can follow the lead’s lifecycle efficiently from first contact until conversion.
 
 ---
 
-![first image](./Overview-leads.webp)
----
-
-### Main Features  
-
-📌 **Lead Stages Kanban Board**  
-The Leads page is organized as a Kanban board, where leads are categorized  
-into different stages:  
+#### 1. Lead Stages Navigation
+At the top of the Lead Details page, you can see the different stages of the lead’s journey:
 
 - New Lead  
 - Message Sent  
 - Not Responded  
 - In Contact  
 - Missed Leads  
+- Waiting Documents  
+- Lead Done  
 
-This visual representation allows you to track the progress of each lead  
-through the sales pipeline at a glance.  
-
----
-
-⚡ **Quick Actions**  
-On the top right corner, there are several quick action buttons:  
-
-- **Add Lead** → Click this button to manually add a new lead to the system.  
-- **Export** → Export the list of leads for reporting or backup purposes.  
-- **Import** → Import leads from an external source to quickly populate your pipeline.  
-- **Download** → Download the details of your leads in a specific format.  
-- **Stages Configurations** → Customize the stages of your sales pipeline  
-  to fit your business process.  
-- **Toggle InProgress/Drafted** → Switch between viewing leads that are  
-  actively in progress or in a drafted state.  
+This navigation helps you quickly understand the current status of the lead and move them through the pipeline.
 
 ---
 
-🗂️ **Lead Information Card**  
-Each lead is represented by a card containing key information:  
+#### 2. Personal Information Tab
+This tab contains all personal data related to the lead. You can view and edit:
 
-- **Name and Timestamp** → Displays the lead’s name and creation time.  
-- **Contact Methods** → Icons for available contact methods (phone, email, WhatsApp).  
-- **Source** → Shows how the lead was generated (e.g., manually by an admin).  
-- **Lead Owner** → Indicates who is responsible for the lead within the system.  
+- Lead Name  
+- Student Name  
+- Mother Name & Father Name  
+- Nationality & Country of Residence  
+- City  
+  - Used to indicate the current city the student lives in.  
+- Passport ID  
+- Birthday  
+- Preferred Language & Spoken Language  
+- Phones & Emails  
+  - Multiple contact options can be added if needed.  
+- WhatsApp Link  
+  - Provides direct access for easy communication.  
+- Sales Person  
+- Who Contacted Us  
+- Source Method  
+- Applicant Type  
+  - Allows selecting more than one service type for the student (e.g., university admission, visa, language course).
 
 ---
 
-🔍 **Search and Filter**  
-The search bar at the top allows you to quickly find specific leads by entering  
-keywords such as:  
+#### 3. Additional Tabs
 
-- Lead name  
-- Student name  
-- Phone number  
-- Email address  
+**Study Information**  
+Record educational preferences such as:
+- Preferred country  
+- Program type  
+- Academic level  
+- Intake period  
+
+**Tasks**  
+Assign and manage follow-up tasks such as:
+- Calls  
+- Meetings  
+- Document reminders  
+
+This helps ensure nothing is missed.
+
+**History**  
+Displays a chronological activity log, including:
+- Stage movements  
+- Updates made  
+- Previous communications  
+
+This provides full visibility over changes.
+
+**WhatsApp**  
+Provides quick access for communication and status updates with the lead.
+
+---
+
+#### 4. Comments & Documents
+Located on the right-hand side of the page:
+
+**Comments**  
+Add internal notes to:
+- Record discussions  
+- Share important updates  
+- Provide context for other team members  
+
+Comments are visible to all authorized users.
+
+**Documents**  
+Upload and manage files related to the lead, such as:
+- Passport scans  
+- Academic transcripts  
+- Payment proofs  
+- Application forms  
+
+Documents remain organized and accessible whenever needed.
+
+---
+
+#### 5. General Information
+This section displays essential details about the record:
+
+- Sales Person  
+  - The team member handling the lead.  
+- Created By & Created At  
+  - Shows who added the lead and when.  
+- Lead ID & Contact ID  
+  - Unique identifiers used for internal tracking and support reference.
+
+---
+
+#### Summary
+The Lead Details page allows you to:
+- Track lead stages visually  
+- Store comprehensive personal and academic information  
+- Communicate quickly via WhatsApp  
+- Add notes and upload documents  
+- Monitor activity history  
+- Assign tasks to ensure proper follow-up  
+- Categorize services via applicant type  
+- Record city of residence for better qualification  
+
+All essential lead actions are centralized in one place for efficient management.
+
 
 
 
